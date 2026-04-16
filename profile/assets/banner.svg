@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-label="Protectyr Labs: production-grade tools extracted from real systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#475569" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="url(#grid)"/>
+
+  <!-- Title block -->
+  <g transform="translate(60, 50)">
+    <text x="0" y="0" font-family="ui-sans-serif,-apple-system,Segoe UI,sans-serif" font-size="42" font-weight="700" fill="#e2e8f0" letter-spacing="-1">Protectyr Labs</text>
+    <text x="0" y="32" font-family="ui-sans-serif,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#94a3b8">Production-grade tools extracted from real systems.</text>
+    <text x="0" y="56" font-family="ui-sans-serif,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#64748b">Multi-agent infrastructure, MCP servers, LLM tooling, security utilities.</text>
+
+    <!-- Category pills -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="0" width="80" height="22" rx="4" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+      <text x="40" y="15" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#a78bfa">MCP</text>
+
+      <rect x="92" y="0" width="50" height="22" rx="4" fill="#0f172a" stroke="#60a5fa" stroke-width="1"/>
+      <text x="117" y="15" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#60a5fa">LLM</text>
+
+      <rect x="154" y="0" width="80" height="22" rx="4" fill="#0f172a" stroke="#34d399" stroke-width="1"/>
+      <text x="194" y="15" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#34d399">Security</text>
+
+      <rect x="246" y="0" width="80" height="22" rx="4" fill="#0f172a" stroke="#fb923c" stroke-width="1"/>
+      <text x="286" y="15" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#fb923c">Workflow</text>
+
+      <rect x="338" y="0" width="60" height="22" rx="4" fill="#0f172a" stroke="#22d3ee" stroke-width="1"/>
+      <text x="368" y="15" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#22d3ee">Infra</text>
+
+      <rect x="410" y="0" width="60" height="22" rx="4" fill="#0f172a" stroke="#f472b6" stroke-width="1"/>
+      <text x="440" y="15" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#f472b6">Quant</text>
+    </g>
+  </g>
+
+  <!-- Right side: stats -->
+  <g transform="translate(820, 50)">
+    <g>
+      <text x="0" y="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="36" font-weight="700" fill="#e2e8f0">19</text>
+      <text x="60" y="0" font-family="ui-sans-serif,Segoe UI,sans-serif" font-size="14" fill="#64748b">packages</text>
+    </g>
+    <g transform="translate(0, 40)">
+      <text x="0" y="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="18" fill="#94a3b8">12</text>
+      <text x="30" y="0" font-family="ui-sans-serif,Segoe UI,sans-serif" font-size="12" fill="#64748b">TypeScript</text>
+      <text x="120" y="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="18" fill="#94a3b8">7</text>
+      <text x="140" y="0" font-family="ui-sans-serif,Segoe UI,sans-serif" font-size="12" fill="#64748b">Python</text>
+    </g>
+    <g transform="translate(0, 70)">
+      <text x="0" y="0" font-family="ui-sans-serif,Segoe UI,sans-serif" font-size="12" fill="#475569">All MIT licensed. Zero or minimal deps.</text>
+    </g>
+    <g transform="translate(0, 95)">
+      <text x="0" y="0" font-family="ui-sans-serif,Segoe UI,sans-serif" font-size="11" fill="#334155" font-style="italic">Battle-tested, then open-sourced.</text>
+    </g>
+  </g>
+</svg>
